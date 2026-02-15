@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("/Médias/arpl3.jpg");
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: bisque;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 25px;
+}
+section {
+    padding: 20px;
+}
+.contenu {
+    display: flex;
+}
+.image img {
+    width: 300px;
+    height: 300px;
+}
+.description {
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.barre {
+    width: 50%;
+    height: 15px;
+    background-color: lightgray;
+}
+.niveau {
+    height: 15px;
+}
+.html {
+    width: 80%;
+    background-color: rosybrown;
+}
+.css {
+    width: 60%;
+   background-color: black;
+}
+.algo {
+    width: 70%;
+    background-color: brown;
+}
+.bas {
+    display: flex;
+    justify-content: space-around;
+}
+input, texte :hover{
+    display: block;
+    margin-bottom: 10px;
+    color: green;
+    font-size: 15px;
+}
+.reseaux a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+.reseaux img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
